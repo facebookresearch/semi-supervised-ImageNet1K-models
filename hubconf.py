@@ -12,7 +12,7 @@ from torchvision.models.resnet import ResNet, Bottleneck
 import torchvision.models as models
 
 semi_supervised_model_urls = {
-    'resnet18':         'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnet18-.pth',
+    'resnet18':         'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnet18-d92f0530.pth',
     'resnet50':         'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnet50-08389792.pth',    
     'resnext50_32x4d':  'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnext50_32x4-ddb3e555.pth',
     'resnext101_32x4d': 'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_supervised_resnext101_32x4-dc43570a.pth',
@@ -21,7 +21,7 @@ semi_supervised_model_urls = {
 }
 
 semi_weakly_supervised_model_urls = {
-    'resnet18':         'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnet18-.pth',
+    'resnet18':         'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnet18-118f1556.pth',
     'resnet50':         'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnet50-16a12f1b.pth',    
     'resnext50_32x4d':  'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnext50_32x4-72679e44.pth',
     'resnext101_32x4d': 'https://dl.fbaipublicfiles.com/semiweaksupervision/model_files/semi_weakly_supervised_resnext101_32x4-3f87e46b.pth',
