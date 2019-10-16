@@ -32,7 +32,7 @@ The models are available with [torch.hub](https://pytorch.org/docs/stable/hub.ht
 As an example, to load the semi-weakly trained ResNet-50 model, simply run:
 
 ```
-model = torch.hub.load('facebookresearch/semisupervisedimageclassification', 'resnet50_swsl')
+model = torch.hub.load('facebookresearch/semi-supervised-ImageNet1K-models', 'resnet50_swsl')
 ```
 Please refer to [torch.hub](https://pytorch.org/docs/stable/hub.html) to see a full example of using the model to classify an image.
 
